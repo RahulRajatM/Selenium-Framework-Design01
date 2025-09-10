@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selenium Calendar & Drag-Drop Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Calendar Dropdown & Drag-and-Drop Demo</h1>
+  <section>
+    <h2>Calendar Dropdown</h2>
+    <label for="date-picker">Select a date:</label>
+    <input type="date" id="date-picker" name="date-picker">
+  </section>
+  <section>
+    <h2>Drag and Drop</h2>
+    <div class="drag-container">
+      <div id="draggable" class="draggable" draggable="true">Drag me!</div>
+      <div id="dropzone" class="dropzone">Drop here</div>
+    </div>
+    <div id="drag-result"></div>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "selenium-calendar-dragdrop-demo",
+  "version": "1.0.0",
+  "description": "Demo site for testing calendar dropdown and drag-and-drop functionality in Selenium.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
